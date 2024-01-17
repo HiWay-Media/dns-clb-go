@@ -2,6 +2,9 @@ package dns
 
 import (
 	"fmt"
+	"net"
+
+	"github.com/miekg/dns"
 )
 
 type Address struct {

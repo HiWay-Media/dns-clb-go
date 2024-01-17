@@ -1,5 +1,4 @@
-package clb 
-
+package clb
 
 import (
 	"fmt"
@@ -8,8 +7,6 @@ import (
 	"github.com/HiWay-Media/dns-clb-go/randomclb"
 	"github.com/HiWay-Media/dns-clb-go/roundrobinclb"
 	"github.com/HiWay-Media/dns-clb-go/ttlcache"
-
-
 )
 
 type LoadBalancerType int
