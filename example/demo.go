@@ -4,11 +4,12 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/HiWay-Media/dns-clb-go/clb"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
+
+	"github.com/HiWay-Media/dns-clb-go/clb"
 )
 
 func getAddress(svcName string) (string, error) {
@@ -19,7 +20,7 @@ func getAddress(svcName string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-
+	log.Println(address.Port)
 	return address.String(), nil
 }
 
