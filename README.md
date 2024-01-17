@@ -15,10 +15,10 @@ Client-Side Load-Balancer for DNS based Service Discovery written in Golang. It 
 
 ### Getting Started
 
-#### Prerequisites
+#### Prerequisites
 - Go 1.16 or later
 
-#### Installation
+#### Installation
 
 ```bash
 go get -u github.com/HiWay-Media/dns-clb-go
