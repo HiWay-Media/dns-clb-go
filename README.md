@@ -30,7 +30,7 @@ If you'd like to contribute to the project, please follow the standard GitHub Fo
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Acknowledgments
+### Acknowledgments
 Inspired by the need for a lightweight and easy-to-use DNS load balancer.
 
 ### Contact
