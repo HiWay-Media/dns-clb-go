@@ -2,7 +2,7 @@ module github.com/HiWay-Media/dns-clb-go
 
 go 1.18
 
-require github.com/miekg/dns v1.1.0
+require github.com/miekg/dns v1.1.25
 
 require (
 	golang.org/x/crypto v0.14.0 // indirect
