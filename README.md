@@ -1,7 +1,8 @@
 # dns-clb-go
 [![Go build](https://github.com/HiWay-Media/dns-clb-go/actions/workflows/go-build.yml/badge.svg)](https://github.com/HiWay-Media/dns-clb-go/actions/workflows/go-build.yml)
 [![Go test workflow](https://github.com/HiWay-Media/dns-clb-go/actions/workflows/go-test.yml/badge.svg)](https://github.com/HiWay-Media/dns-clb-go/actions/workflows/go-test.yml)
-
+![GitHub](https://img.shields.io/github/license/HiWay-Media/dns-clb-go)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/HiWay-Media/dns-clb-go)
 
 Client-Side Load-Balancer for DNS based Service Discovery written in Golang. It allows you to distribute incoming traffic across multiple servers based on DNS resolution. This project aims to provide a simple and efficient solution for load balancing without the need for additional infrastructure components.
 
