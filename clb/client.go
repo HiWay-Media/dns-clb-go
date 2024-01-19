@@ -50,7 +50,11 @@ func NewTtlCacheClb(address string, port string, lbType LoadBalancerType, ttl in
 	return buildClb(cache, lbType)
 }
 
-func NewDefaultTtlClb(  ttl int ) LoadBalancer {
+func NewTtl( ttl int ) LoadBalancer {
+	return NewDefaultTtlClb(RoundRobin, ttl)
+}
+
+func NewDefaultTtlClb(lbType LoadBalancerType, ttl int ) LoadBalancer {
 	lib := dns.NewDefaultLookupLib()
 	cache := ttlcache.NewTtlCache(lib, ttl)
 	return buildClb(cache, lbType)

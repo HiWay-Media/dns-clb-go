@@ -45,6 +45,17 @@ func ExampleNew() {
 	// Output: 0.1.2.3:8001
 }
 
+func ExampleNewNewDefaultTtlClb() {
+	c := NewTtl(0)
+	address, err := c.GetAddress("foo.service.fligl.io")
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Printf("%s", address.String())
+	// Output: 0.1.2.3:8001
+}
+
 // Example address provider using defaults
 func ExampleAddressProvider() {
 	ap := NewAddressProvider("foo.service.fligl.io")
